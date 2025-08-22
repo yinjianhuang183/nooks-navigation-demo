@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/nooks-navigation-demo/static/css/main.eabfba20.css",
+    "main.js": "/nooks-navigation-demo/static/js/main.f1a8dd9b.js",
+    "index.html": "/nooks-navigation-demo/index.html",
+    "main.eabfba20.css.map": "/nooks-navigation-demo/static/css/main.eabfba20.css.map",
+    "main.f1a8dd9b.js.map": "/nooks-navigation-demo/static/js/main.f1a8dd9b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eabfba20.css",
+    "static/js/main.f1a8dd9b.js"
+  ]
+}
