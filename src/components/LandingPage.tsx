@@ -28,24 +28,10 @@ const LandingPage: React.FC = () => {
       component: null
     },
     {
-      id: 'top-nav',
+      id: 'top-nav', // This ID now refers to SequencingNav
       title: 'Sequencing Navigation',
       description: 'Side navigation with Sequencing section expanded and Call/Coach collapsed',
       preview: 'Left sidebar with Sequencing expanded and sub-items visible',
-      component: null
-    },
-    {
-      id: 'hamburger-menu',
-      title: 'Hamburger Menu',
-      description: 'Collapsible mobile-first navigation with slide-out panel',
-      preview: 'Three-line menu that expands to show navigation',
-      component: null
-    },
-    {
-      id: 'tab-navigation',
-      title: 'Tab Navigation',
-      description: 'Tab-based navigation for content switching',
-      preview: 'Horizontal tabs for different content sections',
       component: null
     },
     {
@@ -127,64 +113,6 @@ const LandingPage: React.FC = () => {
           <main className="main-content">
             <div className="content-placeholder">
               {/* Content area is now empty for clean demo */}
-            </div>
-          </main>
-        </div>
-      </div>
-    );
-  }
-
-  if (selectedOption === 'hamburger-menu') {
-    return (
-      <div className="nav-demo">
-        <div className="demo-header">
-          <button className="back-button" onClick={handleBackToLanding}>
-            ← Back to Navigation Options
-          </button>
-          <h2>Hamburger Menu Demo</h2>
-        </div>
-        <div className="demo-content">
-          <nav className="hamburger-nav-demo">
-            <div className="hamburger-button">☰</div>
-            <div className="hamburger-menu">
-              <a href="#" className="hamburger-item">Home</a>
-              <a href="#" className="hamburger-item">About</a>
-              <a href="#" className="hamburger-item">Contact</a>
-            </div>
-          </nav>
-          <main className="main-content">
-            <div className="content-placeholder">
-              <h1>Hamburger Menu Layout</h1>
-              <p>Collapsible mobile-first navigation menu.</p>
-            </div>
-          </main>
-        </div>
-      </div>
-    );
-  }
-
-  if (selectedOption === 'tab-navigation') {
-    return (
-      <div className="nav-demo">
-        <div className="demo-header">
-          <button className="back-button" onClick={handleBackToLanding}>
-            ← Back to Navigation Options
-          </button>
-          <h2>Tab Navigation Demo</h2>
-        </div>
-        <div className="demo-content">
-          <nav className="tab-nav-demo">
-            <div className="tab-container">
-              <button className="tab active">Overview</button>
-              <button className="tab">Analytics</button>
-              <button className="tab">Reports</button>
-              <button className="tab">Settings</button>
-            </div>
-          </nav>
-          <main className="main-content">
-            <div className="content-placeholder">
-              <h1>Tab Navigation Layout</h1>
-              <p>Horizontal tabs for different content sections.</p>
             </div>
           </main>
         </div>
